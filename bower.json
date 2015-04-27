@@ -1,0 +1,28 @@
+{
+  "name": "square-file-icons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/thecotne/square-file-icons",
+  "authors": [
+    "cotne nazarashvili <cotne.nazarashvili@gmail.com>"
+  ],
+  "description": "flat square file icons",
+  "main": "dist/css/square-file.min.css",
+  "keywords": [
+    "font",
+    "icons"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example.html",
+    "template.css",
+    "icons-vectors",
+    "icons",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
