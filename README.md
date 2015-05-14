@@ -1,11 +1,16 @@
 square file icons
 ================
 
-####install with bower
+install with bower
+------------------
+
 `bower install --save thecotne/square-file-icons`
 
-####how to use
-make `span` or `i` tag 
+how to use
+----------
+
+make `span` or `i` tag
+
 add class `sf` and another class to specify icon like this
 ```html
 <span class="sf sf-pdf"></span>
@@ -17,7 +22,9 @@ you can change icon color from css `color` property like this
 <span class="sf sf-5x sf-pdf" style="color: #EA4C3A"></span>
 ```
 
-####find bug?
+
+find bug?
+---------
 
 [submit issue][2]
 
