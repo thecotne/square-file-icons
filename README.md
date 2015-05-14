@@ -4,7 +4,7 @@ square file icons
 install with bower
 ------------------
 
-`bower install --save thecotne/square-file-icons`
+`bower install --save square-file-icons`
 
 how to use
 ----------
