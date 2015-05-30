@@ -46,7 +46,7 @@
 	text-align: center;
 }
 
-<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>" }
+<% _.each(glyphs, function(char, name) { %>.<%= className %>-<%= name %>:before { content: "<%= char %>" }
 <% }); %>
 
 
@@ -74,4 +74,32 @@
 .sf-colorful.sf-word-o{
 	color: #2372BA;
 }
+
+
+.sf-hover:hover .sf-excel:before,
+.sf-hover.sf-excel:hover:before{ content: "<%= glyphs['excel-o'] %>" }
+.sf-hover:hover .sf-excel-o:before,
+.sf-hover.sf-excel-o:hover:before{ content: "<%= glyphs['excel'] %>" }
+.sf-hover:hover .sf-image:before,
+.sf-hover.sf-image:hover:before{ content: "<%= glyphs['image-o'] %>" }
+.sf-hover:hover .sf-image-o:before,
+.sf-hover.sf-image-o:hover:before{ content: "<%= glyphs['image'] %>" }
+.sf-hover:hover .sf-pdf:before,
+.sf-hover.sf-pdf:hover:before{ content: "<%= glyphs['pdf-o'] %>" }
+.sf-hover:hover .sf-pdf-o:before,
+.sf-hover.sf-pdf-o:hover:before{ content: "<%= glyphs['pdf'] %>" }
+.sf-hover:hover .sf-powerpoint:before,
+.sf-hover.sf-powerpoint:hover:before{ content: "<%= glyphs['powerpoint-o'] %>" }
+.sf-hover:hover .sf-powerpoint-o:before,
+.sf-hover.sf-powerpoint-o:hover:before{ content: "<%= glyphs['powerpoint'] %>" }
+.sf-hover:hover .sf-text:before,
+.sf-hover.sf-text:hover:before{ content: "<%= glyphs['text-o'] %>" }
+.sf-hover:hover .sf-text-o:before,
+.sf-hover.sf-text-o:hover:before{ content: "<%= glyphs['text'] %>" }
+.sf-hover:hover .sf-word:before,
+.sf-hover.sf-word:hover:before{ content: "<%= glyphs['word-o'] %>" }
+.sf-hover:hover .sf-word-o:before,
+.sf-hover.sf-word-o:hover:before{ content: "<%= glyphs['word'] %>" }
+
+
 

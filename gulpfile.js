@@ -10,9 +10,13 @@ gulp.task('default', function () {
 			fontName: 'square-file'
 		}))
 		.on('codepoints', function (codepoints, options) {
+			var glyphs = {};
+			codepoints.forEach(function(glyph) {
+				glyphs[glyph.name] = '\\'+glyph.codepoint.toString(16).toUpperCase()
+			});
 			gulp.src('template.css')
 				.pipe(consolidate('lodash', {
-					glyphs: codepoints,
+					glyphs: glyphs,
 					fontName: 'square-file',
 					fontPath: '../fonts/',
 					className: 'sf',

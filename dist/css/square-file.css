@@ -85,3 +85,31 @@
 .sf-colorful.sf-word-o{
 	color: #2372BA;
 }
+
+
+.sf-hover:hover .sf-excel:before,
+.sf-hover.sf-excel:hover:before{ content: "\E001" }
+.sf-hover:hover .sf-excel-o:before,
+.sf-hover.sf-excel-o:hover:before{ content: "\E002" }
+.sf-hover:hover .sf-image:before,
+.sf-hover.sf-image:hover:before{ content: "\E003" }
+.sf-hover:hover .sf-image-o:before,
+.sf-hover.sf-image-o:hover:before{ content: "\E004" }
+.sf-hover:hover .sf-pdf:before,
+.sf-hover.sf-pdf:hover:before{ content: "\E005" }
+.sf-hover:hover .sf-pdf-o:before,
+.sf-hover.sf-pdf-o:hover:before{ content: "\E006" }
+.sf-hover:hover .sf-powerpoint:before,
+.sf-hover.sf-powerpoint:hover:before{ content: "\E007" }
+.sf-hover:hover .sf-powerpoint-o:before,
+.sf-hover.sf-powerpoint-o:hover:before{ content: "\E008" }
+.sf-hover:hover .sf-text:before,
+.sf-hover.sf-text:hover:before{ content: "\E009" }
+.sf-hover:hover .sf-text-o:before,
+.sf-hover.sf-text-o:hover:before{ content: "\E00A" }
+.sf-hover:hover .sf-word:before,
+.sf-hover.sf-word:hover:before{ content: "\E00B" }
+.sf-hover:hover .sf-word-o:before,
+.sf-hover.sf-word-o:hover:before{ content: "\E00C" }
+
+
