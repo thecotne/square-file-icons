@@ -58,3 +58,30 @@
 .sf-text:before { content: "\E00A" }
 .sf-word-o:before { content: "\E00B" }
 .sf-word:before { content: "\E00C" }
+
+
+
+.sf-colorful.sf-excel,
+.sf-colorful.sf-excel-o{
+	color: #08743b;
+}
+.sf-colorful.sf-image,
+.sf-colorful.sf-image-o{
+	color: #5b2d8d;
+}
+.sf-colorful.sf-pdf,
+.sf-colorful.sf-pdf-o{
+	color: #EA4C3A;
+}
+.sf-colorful.sf-powerpoint,
+.sf-colorful.sf-powerpoint-o{
+	color: #DD5B26;
+}
+.sf-colorful.sf-text,
+.sf-colorful.sf-text-o{
+	color: #6B533B;
+}
+.sf-colorful.sf-word,
+.sf-colorful.sf-word-o{
+	color: #2372BA;
+}

@@ -48,3 +48,30 @@
 
 <% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>" }
 <% }); %>
+
+
+.sf-colorful.sf-excel,
+.sf-colorful.sf-excel-o{
+	color: #08743b;
+}
+.sf-colorful.sf-image,
+.sf-colorful.sf-image-o{
+	color: #5b2d8d;
+}
+.sf-colorful.sf-pdf,
+.sf-colorful.sf-pdf-o{
+	color: #EA4C3A;
+}
+.sf-colorful.sf-powerpoint,
+.sf-colorful.sf-powerpoint-o{
+	color: #DD5B26;
+}
+.sf-colorful.sf-text,
+.sf-colorful.sf-text-o{
+	color: #6B533B;
+}
+.sf-colorful.sf-word,
+.sf-colorful.sf-word-o{
+	color: #2372BA;
+}
+
