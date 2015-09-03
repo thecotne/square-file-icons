@@ -1,6 +1,6 @@
 {
   "name": "square-file-icons",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "flat square file icons",
   "main": "dist/css/square-file.min.css",
   "scripts": {
