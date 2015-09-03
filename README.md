@@ -1,15 +1,20 @@
 square file icons
 ================
 
-install with bower
+install with bower or npm
 ------------------
 
 `bower install --save square-file-icons`
 
-don't want to use bower?
+`npm install --save square-file-icons`
+
+
+don't want to download?
 ------------------------
 
-use [rawgit.com CDN][2] this way you don't need to install anything just add link tag to head of html
+use [rawgit.com CDN][2] this way you don't need to download anything just add link tag to head of html
+
+that points to latest version
 
 ```html
 <link href="https://cdn.rawgit.com/thecotne/square-file-icons/master/dist/css/square-file.min.css" rel="stylesheet">

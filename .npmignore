@@ -1,0 +1,11 @@
+**/.*
+bower_components/
+icons-vectors/
+icons/
+node_modules/
+test/
+tests/
+example.html
+gulpfile.js
+package.json
+template.css
