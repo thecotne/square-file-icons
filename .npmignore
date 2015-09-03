@@ -7,5 +7,5 @@ test/
 tests/
 example.html
 gulpfile.js
-package.json
+bower.json
 template.css
