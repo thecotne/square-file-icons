@@ -1,6 +1,8 @@
 square file icons
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thecotne/square-file-icons.svg)](https://greenkeeper.io/)
+
 install with bower or npm
 ------------------
 
