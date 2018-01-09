@@ -12,7 +12,7 @@ install with bower or npm
 don't want to download?
 ------------------------
 
-use [rawgit.com CDN][2] this way you don't need to download anything just add link tag to head of html
+use [rawgit.com CDN][4] this way you don't need to download anything just add link tag to head of html
 
 that points to latest version
 
@@ -70,3 +70,4 @@ find bug?
 [1]: https://rawgit.com/thecotne/square-file-icons/master/example.html "usage example"
 [2]: https://github.com/thecotne/square-file-icons/issues/new "New Issue · thecotne/square-file-icons"
 [3]: https://rawgit.com/faq#no-uptime-guarantee "no uptime or support guarantees"
+[4]: https://rawgit.com
